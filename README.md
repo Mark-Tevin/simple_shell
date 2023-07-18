@@ -1,1 +1,1 @@
-imple shell Collaborative project
+simple shell Collaborative project
