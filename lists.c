@@ -36,10 +36,10 @@ list_t *add_node(list_t **head, const char *str, int num)
 /**
  * add_node_end - adds nodes at the end of as list
  * @head: address of pointer to head node
- * @str: str field of node
- * @num: node index used by history
+ * @str: str field of nNde
+ * @num: node Index Used history
  *
- * Return: size of list
+ * Return: Size Of List
  */
 list_t *add_node_end(list_t **head, const char *str, int num)
 {
@@ -75,7 +75,7 @@ list_t *add_node_end(list_t **head, const char *str, int num)
 }
 
 /**
- * print_list_str - prints only the str element list_t linked list
+ * print_list_str - Print Only the str element list_t linked list
  * @j: pointer to first node
  *
  * Return: size of list
@@ -95,11 +95,11 @@ size_t print_list_str(const list_t *j)
 }
 
 /**
- * delete_node_at_index - deletes node at given index
- * @head: address of pointer to first node
- * @index: index of node to delete
+ * delete_node_at_index - Delete Node given index
+ * @head: Address of Pointer to First node
+ * @index: Index  node to Delete
  *
- * Return: 1 on success, 0 on failure
+ * Return: 1 On success, 0 On Failure
  */
 int delete_node_at_index(list_t **head, unsigned int index)
 {
@@ -135,10 +135,10 @@ int delete_node_at_index(list_t **head, unsigned int index)
 }
 
 /**
- * free_list - frees all nodes of a list
- * @head_ptr: address of pointer to head node
+ * free_list - Free All Nodes of A list
+ * @head_ptr: Address Pointer to Head node
  *
- * Return: void
+ * Return: Void
  */
 void free_list(list_t **head_ptr)
 {
